@@ -820,10 +820,14 @@ input:focus{
 textarea:focus{
   border-color: #4D5AE5; 
 }
-input[type='checkbox']:checked +.modal-form-custom-chekbox {
-  background-color: #404bbf;
-  border: none; 
+input:checked+label>span {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
 }
 .modal-form-checkbox-icon{
   fill:#F4F4FD;
+}
+.modal-form-input:focus+.modal-form-icon {
+  fill: #4D5AE5;
 }
