@@ -515,6 +515,7 @@ img {
 }
 .fotter-social-container {
   display: block;
+  margin-right: 80px;
 }
 .footer-container {
   display: flex;
@@ -567,7 +568,7 @@ img {
 }
 .project-card-link {
   display: block;
-transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-card-link:hover,
 .project-card-link:focus {
@@ -640,4 +641,171 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   stroke: rgba(0, 0, 0, 0.102);
   background-color: #404bbf;
   border: none;
+}
+.foot-label {
+}
+.fotter-social-desc {
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+.form-label {
+}
+.form-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid var(--white);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: var(--navyblue, #2e2f42);
+  color: var(--white);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2em;
+  letter-spacing: 0.48px;
+  padding: 8px 16px;
+}
+.submit-foot {
+  display: inline-flex;
+  width: 165px;
+  height: 40px;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: var(--iris);
+  gap: 16px;
+  color: var(--white, #fff);
+  text-align: center;
+  letter-spacing: 0.04em;
+  line-height: 1.5em;
+}
+.foot-button {
+  margin-left: 16px;
+}
+.modal-info {
+  display: block;
+  margin-bottom: 16px;
+  width: 360px;
+  text-align: center;
+  font-weight: 500;
+  color: var(--grey);
+  letter-spacing: 0.2em;
+  height: 1.5;
+}
+.modal-label {
+  margin-bottom: 8px;
+}
+.modal-form-field {
+  display: block;
+  color: var(--lightslate);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+}
+.modal-input {
+  position: relative;
+}
+.modal-form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 18px;
+}
+.modal-form-icone {
+  fill: var(--grey);
+  position: absolute;
+  bottom: 8px;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  left: 16px;
+  top: 50%;
+}
+.modal-label-comments {
+  margin-bottom: 16px;
+}
+.modal-form-field {
+  display: block;
+  color: var(--lightslate);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+}
+.modal-form-comment {
+  width: 100%;
+  height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-agreement {
+  margin-bottom: 24px;
+}
+.modal-form-checkbox {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+}
+.modal-form-text {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--lightslate);
+}
+.modal-form-custom-chekbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-link{
+  color: var(--iris);
+    text-decoration: underline;
+}
+.form-button{
+  display: block;
+    min-width: 169px;
+    height: 56px;
+    margin: 0 auto;
+    padding: 16px 32px;
+    border-radius: 4px;
+    background: var(--iris);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--white);
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-width: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+}
+form{
+  display: block;
+  margin-top: 0em;
 }
