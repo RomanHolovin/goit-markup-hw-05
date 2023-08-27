@@ -655,19 +655,18 @@ img {
 .form-input {
   width: 264px;
   height: 40px;
-  border-radius: 4px;
-  border: 1px solid var(--white);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background: var(--navyblue, #2e2f42);
-  color: var(--white);
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2em;
-  letter-spacing: 0.48px;
-  padding: 8px 16px;
+  border: 1px solid #ffffff;
   background-color: transparent;
+  font-size: 12px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.form-imput::placeholder{
+  color:var(--white)
 }
 .submit-foot {
   display: inline-flex;
@@ -828,6 +827,6 @@ input:checked+label>span {
 .modal-form-checkbox-icon{
   fill:#F4F4FD;
 }
-.modal-form-input:focus+.modal-form-icon {
+.modal-form-input:focus+.modal-form-icone{
   fill: #4D5AE5;
 }
