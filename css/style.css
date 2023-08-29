@@ -822,3 +822,9 @@ input:checked+label>span {
 .modal-form-input:focus+.modal-form-icone{
   fill: #4D5AE5;
 }
+.form-button:hover {
+  background-color: #404bbf;
+}
+.form-button:focus {
+  background-color: #404bbf;
+}
