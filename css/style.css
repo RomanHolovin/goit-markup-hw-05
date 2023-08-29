@@ -678,7 +678,6 @@ img {
   padding: 8px 24px;
   border-radius: 4px;
   background: var(--iris);
-  gap: 16px;
   color: var(--white, #fff);
   text-align: center;
   letter-spacing: 0.04em;
@@ -687,9 +686,9 @@ img {
   cursor: pointer;
   border: none;
 }
-/* .foot-button {
+.foot-button {
   margin-left: 16px;
-} */
+}
 .modal-info {
   display: block;
   margin-bottom: 16px;
