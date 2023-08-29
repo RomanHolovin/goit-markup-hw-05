@@ -687,9 +687,9 @@ img {
   cursor: pointer;
   border: none;
 }
-.foot-button {
+/* .foot-button {
   margin-left: 16px;
-}
+} */
 .modal-info {
   display: block;
   margin-bottom: 16px;
@@ -736,14 +736,6 @@ img {
 }
 .modal-label-comments {
   margin-bottom: 16px;
-}
-.modal-form-field {
-  display: block;
-  color: var(--lightslate);
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  margin-bottom: 4px;
 }
 .modal-form-comment {
   width: 100%;
